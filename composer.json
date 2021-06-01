@@ -1,20 +1,25 @@
 {
-    "name": "itoop/usermanagement",
+    "name": "sandstorm/usermanagement",
     "description": "Neos and Flow package for user management, login/logout, password reset and user activation",
     "type": "neos-package",
     "keywords": ["user", "login", "logout", "registration", "frontend login", "forgot password", "account", "Neos", "Flow"],
-    "homepage": "https://github.com/itoop/UserManagement",
+    "homepage": "https://github.com/sandstorm/UserManagement",
     "license": "MIT",
     "authors": [
         {
-            "name": "itoop",
-            "homepage": "https://www.itoop.de",
+            "name": "Bastian Heist",
+            "homepage": "https://www.sandstorm.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Sebastian Kurfuerst",
+            "homepage": "https://www.sandstorm.de",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/itoop/UserManagement/issues",
-        "source": "https://github.com/itoop/UserManagement"
+        "issues": "https://github.com/sandstorm/UserManagement/issues",
+        "source": "https://github.com/sandstorm/UserManagement"
     },
     "require": {
         "neos/flow": "^6.0 || ^7.0 || dev-master",
@@ -22,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Itoop\\UserManagement\\": "Classes"
+            "Sandstorm\\UserManagement\\": "Classes"
         }
     }
 }
