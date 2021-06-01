@@ -7,11 +7,6 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Bastian Heist",
-            "homepage": "https://www.sandstorm.de",
-            "role": "Developer"
-        },
-        {
             "name": "itoop",
             "homepage": "https://www.itoop.de",
             "role": "Developer"
